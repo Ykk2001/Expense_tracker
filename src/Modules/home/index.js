@@ -32,7 +32,7 @@ const HomeComponent = (props) => {
         updateExpense(exp);
         updateIncome(inc);
     };
-    useEffect(() => calculateBalance(), [transactions]);
+    useEffect(() => calculateBalance(), []);//in dependency transactions
 
     const addTransaction = (payload) => {
         const transactionArray = [...transactions];

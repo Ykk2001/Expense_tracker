@@ -60,7 +60,7 @@ const TransactionsComponent = (props) => {
 
     useEffect(() => {
         filterData(searchText);
-    }, [props.transactions]);
+    }, []);//props.transactions
 
     return (
         <Container>
