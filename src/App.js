@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import HomeComponent from './Modules/home';
+import React from 'react';
+
 const Container=styled.div`
 display:flex;
 flex-direction:column;
